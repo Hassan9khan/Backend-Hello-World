@@ -15,6 +15,12 @@ app.get('/about' , (req , res) => {
 app.post('/contact' , (req , res) => {
   res.send('Google Calendar')
 })
+app.put ('/about' , (req , res) => {
+  res.send('Google Calendar')
+})
+app.patch('/contact' , (req , res) => {
+  res.send('Google Calendar')
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
