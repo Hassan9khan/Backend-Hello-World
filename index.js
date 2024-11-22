@@ -9,6 +9,9 @@ app.get('/', (req, res) => {
 app.get('/' , (req , res) => {
   res.send('Google Calendar')
 })
+app.get('/about' , (req , res) => {
+  res.send('Google Calendar')
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
